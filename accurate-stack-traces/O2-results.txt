@@ -1,0 +1,35 @@
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x0000000000400601 in debug_trap() ()
+#0  0x0000000000400601 in debug_trap() ()
+#1  0x0000000000400546 in inlining_path() ()
+#2  0x00000000004005c6 in main ()
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x0000000000400601 in debug_trap() ()
+#0  0x0000000000400601 in debug_trap() ()
+#1  0x0000000000400555 in inlining_path() ()
+#2  0x00000000004005c6 in main ()
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x0000000000400601 in debug_trap() ()
+#0  0x0000000000400601 in debug_trap() ()
+#1  0x0000000000400578 in block_combine(bool) ()
+#2  0x00000000004005d8 in main ()
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x0000000000400601 in debug_trap() ()
+#0  0x0000000000400601 in debug_trap() ()
+#1  0x0000000000400596 in tail_call_opt(int) ()
+#2  0x00000000004005e9 in main ()
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x0000000000400601 in debug_trap() ()
+#0  0x0000000000400601 in debug_trap() ()
+#1  0x00000000004005b6 in sibling_call_opt() ()
+#2  0x00000000004005ee in main ()
+A debugging session is active.
+
+	Inferior 1 [process 8344] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

@@ -1,0 +1,46 @@
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x0000000000400625 in debug_trap() ()
+#0  0x0000000000400625 in debug_trap() ()
+#1  0x00000000004004f9 in a() ()
+#2  0x0000000000400509 in b() ()
+#3  0x0000000000400529 in inlining_path() ()
+#4  0x00000000004005e9 in main ()
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x0000000000400625 in debug_trap() ()
+#0  0x0000000000400625 in debug_trap() ()
+#1  0x00000000004004f9 in a() ()
+#2  0x0000000000400519 in c() ()
+#3  0x000000000040052e in inlining_path() ()
+#4  0x00000000004005e9 in main ()
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x0000000000400625 in debug_trap() ()
+#0  0x0000000000400625 in debug_trap() ()
+#1  0x00000000004004f9 in a() ()
+#2  0x000000000040055f in block_combine(bool) ()
+#3  0x00000000004005fe in main ()
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x0000000000400625 in debug_trap() ()
+#0  0x0000000000400625 in debug_trap() ()
+#1  0x000000000040059d in tail_call_opt(int) ()
+#2  0x00000000004005b6 in tail_call_opt(int) ()
+#3  0x00000000004005b6 in tail_call_opt(int) ()
+#4  0x00000000004005b6 in tail_call_opt(int) ()
+#5  0x00000000004005b6 in tail_call_opt(int) ()
+#6  0x00000000004005b6 in tail_call_opt(int) ()
+#7  0x000000000040060f in main ()
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x0000000000400625 in debug_trap() ()
+#0  0x0000000000400625 in debug_trap() ()
+#1  0x00000000004005c9 in sibling() ()
+#2  0x00000000004005d9 in sibling_call_opt() ()
+#3  0x0000000000400614 in main ()
+A debugging session is active.
+
+	Inferior 1 [process 8294] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
